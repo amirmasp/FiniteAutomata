@@ -20,8 +20,8 @@ Model::~Model() {
 
 // transition functionDelta (private member) is implemented inside this Interface
 // *****************************************************************************************
-bool Model::Run(string Σ) { 
-   this->δ(Σ);
+bool Model::Run(string sigma) { 
+   this->delta(sigma);
    
    // Now Make a Decision if currentState is in Accepted states Set F
    auto got = this->F.find(this->currentState);
@@ -34,7 +34,7 @@ bool Model::Run(string Σ) {
 
 // Algorithm Implementation of delta tranision function
 // *****************************************************************************************
-State* Model::δ(string s) {     
+State* Model::delta(string s) {     
     // Start to Read Input Alphabet
     for (int i = 0; i < s.size(); i++) { 
         if (this->currentState == this->Q[0]) {

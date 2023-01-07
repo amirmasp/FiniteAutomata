@@ -16,7 +16,7 @@ class Model {
     private:
     State* Q[3];// vector<State*> Q(3);
     unordered_set<State*> F;
-    State* δ(string s); 
+    State* delta(string s); 
     State* currentState; 
 };
 

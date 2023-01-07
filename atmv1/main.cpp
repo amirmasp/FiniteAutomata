@@ -18,7 +18,8 @@ int main() {
 
     PrintWelcome();
        
-    cout << "Enter your Seguence Σ (for quit type 'quit' and Enter):\nΣ = ";
+    cout << "Enter a Seguence of 0s and 1s"\n;
+    cout << " (type 'quit' and Enter for quit):\nΣ = ";
     cin >> sigma;
 
     while(sigma != "quit") {
