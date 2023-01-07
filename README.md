@@ -21,4 +21,5 @@ can be true or false.
 
 # DFAs VS NFAs
 In above DFA models, there is maximum one state to go when it reads character 'a' from input at the current state.
-In NFA(Nondeterministic Finite Automata), there are more than one state to go, like a tree.
+In NFA(Nondeterministic Finite Automata), there are more than one state to go,given input character 'a' at thr current state.
+NFAs act like Tree data structure.
