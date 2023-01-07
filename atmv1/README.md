@@ -35,11 +35,12 @@ Thus we say A is the Language of M1 when M1 recognizes A.
                
 ## Model M1: Formal Definition
 `M1 = (Q, Σ, δ, q0, F)`
-- Q: finite set of states
-- Σ: finite set of alphabet symbols
+- Q: finite set of states.
+- Σ: finite set of alphabet symbols.
+- F: A set of accepting States.
+- q0: is the starting State.
 - δ: Q X Σ -> Q
-- F: A set of accepting States
-- q0: is the starting State,
+
 δ is transition function,
 X means Q cross Σ.
 You are going to give delta a StateVariable and an alphabet symbol, 
