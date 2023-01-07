@@ -1,2 +1,2 @@
-# atmv2: Designing and Implementing a Finite automaton 
+# M2: is a DFS
 It Accepts string w where w has an even number of 1s
