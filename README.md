@@ -14,7 +14,7 @@ can be true or false.
 `L(atmv2) = B = {w| w contains an even number of 1s}`
 
 
-# An Impression
+# Impressions
 - Machines can handle more than one task simultaneously!
 - Above models Change state q to state r while Read an character from input.
 
