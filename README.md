@@ -1,5 +1,5 @@
 # Deterministic Finite Automata (DFS)
-DFSs are very simple abstract models of machines. Although they are simple but they could demonstrate some strong aspect of machines like doing Parallel Tasks.
+DFSs are very simple abstract models of machines. Although they are simple but they could demonstrate some strong aspect of machines like doing parallel tasks.
 You could suppose these machines as a machine with minimum amount of memory. In first model (atmv1), it runs in space comprised of 3 states. Each state is a byte,
 can be true or false.
 ##### Note0: These models can be using for pattern recognition tasks.
@@ -21,5 +21,5 @@ can be true or false.
 
 # DFAs VS NFAs
 In above DFA models, there is maximum one state to go when it reads character 'a' from input at the current state.
-In NFA(Nondeterministic Finite Automata), there are more than one state to go,given input character 'a' at thr current state.
+In NFA(Nondeterministic Finite Automata), there are more than one state to go,given input character 'a' at the current state.
 NFAs act like Tree data structure.
