@@ -1,12 +1,12 @@
 # Deterministic Finite Automata (DFS)
-DFSs are very simple abstract models of machines. Although they are simple but they could demonstrate some strong aspect of machines like doing parallel tasks.
-You could suppose these machines as a machine with minimum amount of memory. In first model (atmv1), it runs in space comprised of 3 states. Each state is a byte,
-can be true or false.
+A DFS is a simple *abstract model* of a machine. Although they(DFAs) are simple but they could demonstrate some strong aspects of machines like doing parallel tasks(threads).
+You could suppose these machines as a machine with minimum amount of memory. In the first model **(atmv1)**, it runs in a space comprised of 3 states. Each state is a byte,
+can be true or false. Thus there are 3 possible states for  **atmv1** to run in space `S`.
 ##### Note0: These models can be using for pattern recognition tasks.
 ## atmv1 Model
 3 states.
 #### Language of atmv1
-`L(atmv1) = A = {w| w contains substring '11'}` 
+`A = L(atmv1) = {w| w contains substring '11'}` 
 
 ## atmv2 Model
 2 states.
@@ -15,8 +15,8 @@ can be true or false.
 
 
 # Impressions
-- Machines can handle more than one task simultaneously!
-- Above models Change state q to state r while Read an character from input.
+Machines can handle more than one task simultaneously!
+(**Above models Change state q to state r while reading an character from input**).
 
 
 # DFAs VS NFAs
