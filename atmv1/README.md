@@ -12,8 +12,8 @@ We can develop a very comprehensive theory.
 ## Model M1: Language (Collection of Strings)
 `L(M1) = A = {w|w contains substring "11"}`
 
-M1 Accepts exactly those string in A where that string contains substring '11'.     
-Thus we say A is the Language of M1 when M1 recognizes A.
+The automaton **M1** accepts exactly those strings in **A** where that strings contain substring '11'.     
+Then we say **A** is the l*language* of M1 when M1 recognizes A.
 
 
 `A = L(M1) `
